@@ -1,0 +1,141 @@
+
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	Login and Registration Form 
+</title><link rel="stylesheet" href="style.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/family-Bitter|Create+Round|pacifico');
+    </style>
+</head>
+<body>
+    <form method="post" action="./register.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="form1" class="login-form">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="CtD6SlVPYwkazMKRhFn03Jbn2fBuMm9NHElUQ6IvTjaji0iAf4R1K6c9mQUJlvEjcFG0bkKkR5Gf6ujS8zo6J5djyxI9B5r8mToCnpV/1OE=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZFN6cs-eup7AFGkzgHZ_W3fk3pAQqCjaVIN4UlL29pgHDE-slCJUchZhoH6xqQftKA2&amp;t=636824071937932151" type="text/javascript"></script>
+
+
+<script src="/WebResource.axd?d=x2nkrMJGXkMELz33nwnakNL38h5Sehq0TUO_f4VPIqKsKSR3sWbuXVqcJShiJ8mW1FeiOnczAVccdMIU_LC49RaTmOYUYaVLij8o_x4FWDc1&amp;t=636824071937932151" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="799CC77D" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="TCBSYiiD0B8SAYtTGscKpg568poR/F8FqJplxKJm6bdFmwgE4aoE92DwhgNsHEa2CQxlNhejfHVTOLUcMt/rlUUn0rAlLyrrwEG7tP3YM+EAky0JUw/9yQwdl8Me48jMwVpC7rEWv0XAJ3yQ6/pUVbqPSznsvOURq/6cAVaqNjV5Z9/UODMKRjmkuB9PyUbI" />
+</div>
+         <div class ="login-page">
+          <div class ="form">
+               <h1>Sign up </h1>  
+              <input name="name" type="text" id="name" placeholder="User Name" />
+              <br />
+              <span id="RequiredFieldValidator1" style="color:DarkRed;font-size:Medium;display:none;">Please Enter UserName</span>
+              
+              
+              <input name="email" type="text" id="email" placeholder="Email ID" />
+              <br />
+              <span id="RequiredFieldValidator2" style="color:DarkRed;font-size:Medium;display:none;">Please Enter Email</span>
+              
+              <input name="password" type="password" id="password" placeholder="Password" />
+            <br />
+              <span id="RegularExpressionValidator1" style="color:DarkRed;font-size:Medium;display:none;">Passwrod Must be 3 to 10 characters</span>
+              <span id="RequiredFieldValidator3" style="color:DarkRed;font-size:Medium;display:none;">Please Enter Password...!!</span>
+
+
+
+              <input type="submit" name="signup" value="Sign Up" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;signup&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="signup" class="form" style="background-color:#4CAF50;" />
+               
+              <p class="message">Already Registered?<a href="signup.aspx">Login</a></p>
+               </div>
+              </div>
+        <div>
+        </div>
+    
+<script type="text/javascript">
+//<![CDATA[
+var Page_Validators =  new Array(document.getElementById("RequiredFieldValidator1"), document.getElementById("RequiredFieldValidator2"), document.getElementById("RegularExpressionValidator1"), document.getElementById("RequiredFieldValidator3"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var RequiredFieldValidator1 = document.all ? document.all["RequiredFieldValidator1"] : document.getElementById("RequiredFieldValidator1");
+RequiredFieldValidator1.controltovalidate = "name";
+RequiredFieldValidator1.errormessage = "Please Enter UserName";
+RequiredFieldValidator1.display = "Dynamic";
+RequiredFieldValidator1.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator1.initialvalue = "";
+var RequiredFieldValidator2 = document.all ? document.all["RequiredFieldValidator2"] : document.getElementById("RequiredFieldValidator2");
+RequiredFieldValidator2.controltovalidate = "email";
+RequiredFieldValidator2.errormessage = "Please Enter Email";
+RequiredFieldValidator2.display = "Dynamic";
+RequiredFieldValidator2.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator2.initialvalue = "";
+var RegularExpressionValidator1 = document.all ? document.all["RegularExpressionValidator1"] : document.getElementById("RegularExpressionValidator1");
+RegularExpressionValidator1.controltovalidate = "password";
+RegularExpressionValidator1.errormessage = "Passwrod Must be 3 to 10 characters";
+RegularExpressionValidator1.display = "Dynamic";
+RegularExpressionValidator1.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+RegularExpressionValidator1.validationexpression = "^[a-zA-Z0-9\'@&#.\\s]{3,10}$";
+var RequiredFieldValidator3 = document.all ? document.all["RequiredFieldValidator3"] : document.getElementById("RequiredFieldValidator3");
+RequiredFieldValidator3.controltovalidate = "password";
+RequiredFieldValidator3.errormessage = "Please Enter Password...!!";
+RequiredFieldValidator3.display = "Dynamic";
+RequiredFieldValidator3.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator3.initialvalue = "";
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        //]]>
+</script>
+</form>
+    
+</body>
+</html>

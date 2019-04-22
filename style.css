@@ -1,0 +1,93 @@
+body{
+    background:url(2.jpg);
+    font-family: 'Titillium Web', sans-serif;        
+    background-size: cover;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: .5s ease;
+}
+a:hover {
+  color: #179b77;
+}
+.login-page{
+  padding: 10% 0  0;
+  width: 360px;
+    margin: auto;
+}
+
+.form{
+  padding: 40px;
+  max-width: 360px;
+ 
+  margin: -20px auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+  transition: .5s ease;
+}
+.form:hover {
+	box-shadow: 0px 0px 40px 16px rgba(18,18,18,1.00);
+	}
+h1 {
+  text-align: center;
+  color: #fff;
+  font-weight: 300;
+  margin: 0 0 40px;
+}
+
+.form input{
+    outline: 1;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+
+    box-sizing: border-box;
+    font-size: 14px;
+    background: none;
+    background-image: none;
+    border: 1px solid #fff;
+  
+    
+}
+input:focus{
+  outline: 0;
+  border-color: #000;
+}
+
+.form button{
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.form button:hover, .form button:focus {
+  background: #179b77;
+}
+
+.form .message{
+    margin: 15px 0 0;
+    color:white;
+    font-size: 10px;
+    text-align: center;
+}
+
+.form .message a{
+    color:blue;
+    text-decoration: none;
+    font-size:14px;
+}
+
+.form .register-form{
+    display: none;
+}
+
+
